@@ -1,0 +1,71 @@
+h1{
+    background-color: rgb(135, 78, 226);
+    padding: 20px;
+    
+    
+}
+
+p{
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 35px;
+    text-align: center;
+    width: 35%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+body{
+    background-color: rgb(27, 27, 27);;
+}
+
+#p1{
+    color: rgb(20, 168, 168);
+}
+
+#p2{
+    color: blue;
+}
+
+#p3{
+    color: rgb(201, 43, 193);
+}
+
+#p4{
+    color: blueviolet;
+}
+
+#p5{
+    color: red;
+}
+
+#p6{
+    color: rgb(233, 163, 34);
+}
+
+#nota{
+    width: 7%;
+    margin-top: 10px;
+    font-size: 35px;
+    color: black;
+    border-radius: 10px;
+
+}
+
+.nota{
+    width: 20%;
+    font-size: 25px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(27, 27, 27);
+}
+
+a{
+    color: aquamarine;
+    
+}
+
+a:hover{
+    background-color: rgb(40, 93, 236);
+}
+
