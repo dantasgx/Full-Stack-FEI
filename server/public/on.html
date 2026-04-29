@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Servidor Rodando</h1>
+    <h2>Gabriel Dantas</h2>
+
+    <h2>Exemplo de Formulários</h2>
+    <form action="/inicio">  
+        <input type="text" name="info">
+        <br>
+        <br>
+        <input type="number" name="number">
+        <br>
+        <br>
+        <input type="checkbox" name="checkbox">
+        <br>
+        <br>
+        <input type="color" name="color">
+        <br>
+        <br>
+        <input type="date">
+        <br>
+        <br>
+        <input type="email">
+        <br>
+        <br>
+        <input type="password" name="password">
+        <br>
+        <br>
+        
+        <br>
+        <br>
+        <input type="radio" name="radio">
+        <br>
+        <br>
+        <input type="submit" value="enviar por GET" formmethod="get">
+        <br>
+        <br>
+        <input type="submit" value="enviar por POST" formmethod="post">
+    </form>
+
+    <h3>Exemplo de Cadastro</h3>
+    <form method="post" action="/cadastro">
+        <p>nome: <input type="text" name="nome"></p>
+        <p>login: <input type="text" name="login"></p>
+        <p>senha: <input type="password" name="senha"></p>
+        <input type="submit" value="cadastrar">
+    </form>
+
+    <h3>Exemplo de Uso de FOR no EJS</h3>
+    <form method="get" action="/for">
+        <p>Indique a quantidade de DIVS</p>
+        <input type="number" name="qtde">
+        <br>
+        <br>
+        <input type="submit">
+    </form>
+</body>
+</html>
